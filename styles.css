@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  /* Indicator styling */
+  .indicator {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background-color: gray;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  .indicator.on {
+    background-color: red;
+  }
+  
+  .indicator.off {
+    background-color: gray;
+  }
+  
